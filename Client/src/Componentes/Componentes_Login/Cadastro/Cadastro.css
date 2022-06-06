@@ -1,0 +1,1134 @@
+.cadastro{
+    margin-left: 525px;
+    margin-top: 100px;
+    flex-direction: row;
+    display: flex;
+    margin-left: 525px;
+    margin-top: 100px;
+}
+
+.container-cadastro{
+    width: 400px;
+    height: 800px;
+    border-left: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid rgba(190,0,29,1);
+    border-right: 1px solid rgba(190,0,29,1);
+    border-bottom: 1px solid rgba(190,0,29,1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.container-principal-cadastro{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-imagem-cadastro{
+    width: 400px;
+    height: 800px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgba(190,0,29,0.9);
+}
+
+.imagem-principal-cadastro{
+    width: 400px;
+    height: 720px;
+    margin-right: 100px;
+}
+
+.input-cadastro{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: large;
+    text-align: left;
+}
+
+.texto-input-cadastro{
+    margin-top: 50px;
+    text-align: center;
+    font-size: medium ;
+    color: rgba(190,0,29,1);
+
+}
+
+.texto-titulo-cadastro{
+    font-size: xx-large;
+    color: rgba(190,0,29,1);
+}
+
+.texto-cadastro-cadastro{
+    margin-top: 30px;
+    font-size: medium;
+    color: rgba(190,0,29,1);
+}
+
+.text-error-cadastro{
+    color: red;
+}
+
+.text-link-cadastro{
+    margin-top: 30px;
+    text-align: center;
+    font-size: medium;
+    color: red;
+}
+.botao-cadastro{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    background-color: rgba(190,0,29,1);
+    color:#fff;
+}
+
+.botao-cadastro:hover{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: rgb(116, 1, 1);
+    color:rgb(255, 255, 255);
+}
+
+
+@media (max-width: 2561px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-left: 550px;
+        margin-top: 80px;
+    }
+    
+    .container-cadastro{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 750px;
+        height: 1000px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 750px;
+        height: 1000px;
+    }
+    
+    .imagem-principal-cadastro{
+        margin-top: 1px;
+        width: 750px;
+        height: 1000px;
+    }
+    .input-cadastro{
+        font-size: 35px ;
+        text-align: left;
+        width: 550px;
+        height: 60px;
+        border-radius: 15px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 40px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-cadastro{
+        font-size: 70px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-cadastro-cadastro{
+        margin-top: 1px;
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-cadastro{
+        font-size: 35px;
+        color: red;
+    }
+    
+    .text-link-cadastro{
+        text-align: center;
+        font-size: xx-large;
+        color: red;
+        margin-top: 15px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 300px;
+        height: 55px;
+        font-size: x-large;
+        margin-top: 45px;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 300px;
+        height: 45px;
+        font-size: x-large;
+    }
+}
+
+
+
+/* resolucao 2048 x 1536 */
+
+@media (max-width: 2049px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-left: 250px;
+        margin-top: 100px;
+    }
+    
+    .container-cadastro{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 750px;
+        height: 1400px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 750px;
+        height: 1400px;
+    }
+    
+    .imagem-principal-cadastro{
+        margin-top: 1px;
+        width: 750px;
+        height: 1400px;
+    }
+    .input-cadastro{
+        font-size: 35px ;
+        text-align: left;
+        width: 550px;
+        height: 60px;
+        border-radius: 15px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 40px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-cadastro{
+        font-size: 70px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-cadastro-cadastro{
+        margin-top: 1px;
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-cadastro{
+        font-size: 35px;
+        color: red;
+    }
+    
+    .text-link-cadastro{
+        text-align: center;
+        font-size: xx-large;
+        color: red;
+        margin-top: 20px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 300px;
+        height: 55px;
+        font-size: x-large;
+        margin-top: 100px;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 300px;
+        height: 45px;
+        font-size: x-large;
+    }
+}
+
+
+/* 1920 x 1200 */
+@media (max-width: 1921px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-left: 230px;
+        margin-top: 50px;
+    }
+    
+    .container-cadastro{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 750px;
+        height: 1100px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 750px;
+        height: 1100px;
+    }
+    
+    .imagem-principal-cadastro{
+        margin-top: 1px;
+        width: 750px;
+        height: 1100px;
+    }
+    .input-cadastro{
+        font-size: 35px ;
+        text-align: left;
+        width: 550px;
+        height: 60px;
+        border-radius: 15px;
+        margin-top: 5px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 40px ;
+        color: rgba(190,0,29,1);
+        margin-top: 40px;
+    }
+    
+    .texto-titulo-cadastro{
+        font-size: 70px;
+        color: rgba(190,0,29,1);
+        margin-top: 1px;
+    }
+    
+    .texto-cadastro-cadastro{
+        margin-top: 1px;
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+        margin-top: 1px;
+    }
+    
+    .text-error-cadastro{
+        font-size: 30px;
+        color: red;
+        margin-top: 1px;
+    }
+    
+    .text-link-cadastro{
+        text-align: center;
+        font-size: xx-large;
+        color: red;
+        margin-top: 20px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 300px;
+        height: 55px;
+        font-size: x-large;
+        margin-top: 70px;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 300px;
+        height: 45px;
+        font-size: x-large;
+    }
+}
+
+
+/* 1600 x 900 */
+@media (max-width: 1601px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    
+    .container-cadastro{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 600px;
+        height: 800px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 600px;
+        height: 800px;
+    }
+    
+    .imagem-principal-cadastro{
+        margin-top: 0px;
+        width: 600px;
+        height: 800px;
+    }
+    .input-cadastro{
+        font-size: 30px ;
+        text-align: left;
+        width: 500px;
+        height: 50px;
+        border-radius: 15px;
+        margin-top: 0px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 30px ;
+        color: rgba(190,0,29,1);
+        margin-top: 40px;
+    }
+    
+    .texto-titulo-cadastro{
+        font-size: 50px;
+        color: rgba(190,0,29,1);
+        margin-top: 0px;
+    }
+    
+    .texto-cadastro-cadastro{
+        margin-top: 0px;
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+        margin-top: 1px;
+    }
+    
+    .text-error-cadastro{
+        font-size: 30px;
+        color: red;
+        margin-top: 0px;
+    }
+    
+    .text-link-cadastro{
+        text-align: center;
+        font-size: 25px;
+        color: red;
+        margin-top: 10px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        font-size: x-large;
+        margin-top: 50px;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 200px;
+        height: 50px;
+        font-size: x-large;
+    }
+}
+
+/* 1440 x 900 */
+
+@media (max-width: 1441px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-left: 300px;
+        margin-top: 30px;
+    }
+    
+    .container-cadastro{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 400px;
+        height: 700px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 400px;
+        height: 700px;
+    }
+    
+    .imagem-principal-cadastro{
+        margin-top: 1px;
+        width: 400px;
+        height: 700px;
+    }
+    .input-cadastro{
+        font-size: 15px ;
+        text-align: left;
+        width: 275px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 20px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-cadastro{
+        margin-top: 39px;
+        font-size: 35px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-cadastro{
+        font-size: 15px;
+        color: red;
+    }
+    
+    .text-link-cadastro{
+        text-align: center;
+        font-size: large;
+        color: red;
+        font-size: 20px;
+        margin-top: 45px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;     
+        border-radius: 15px;
+        width: 130px;
+        height: 30px;
+        margin-top: 55px;
+        font-size: 15px;
+    }
+    
+    .botao-cadastro:hover{
+        transition: 0.5s;
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 15px;
+        width: 130px;
+        height: 30px;
+        font-size: 15px;
+    }
+}   
+
+/* 1280 x 720 */
+
+@media (max-width: 1281px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-left: 250px;
+        margin-top: 70px;
+    }
+    
+    .container-cadastro{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 400px;
+        height: 600px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 400px;
+        height: 600px;
+    }
+    
+    .imagem-principal-cadastro{
+        margin-top: 1px;
+        width: 400px;
+        height: 600px;
+    }
+    .input-cadastro{
+        font-size: 15px ;
+        text-align: left;
+        width: 275px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 20px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-cadastro{
+        margin-top: 10px;
+        font-size: 35px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-cadastro{
+        font-size: 15px;
+        color: red;
+    }
+    
+    .text-link-cadastro{
+        text-align: center;
+        font-size: large;
+        color: red;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;     
+        border-radius: 10px;
+        width: 130px;
+        height: 35px;
+        margin-top: 55px;
+        font-size: 15px;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 15px;
+        width: 200px;
+        height: 45px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-left: 175px;
+        margin-top: 100px;
+    }
+    
+    .container-cadastro{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 350px;
+        height: 600px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 350px;
+        height: 600px;
+    }
+    
+    .imagem-principal-cadastro{
+        margin-top: 40px;
+        width: 350px;
+        height: 500px;
+    }
+    .input-cadastro{
+        font-size: medium;
+        text-align: left;
+        width: 270px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 0px;       
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 30px;
+        text-align: center;
+        font-size: large ;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-titulo-cadastro{
+        font-size: xx-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-cadastro-cadastro{
+        font-size: large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-cadastro{
+        font-size: medium;
+        color: red;
+    }
+    
+    .text-link-cadastro{
+        text-align: center;
+        font-size: medium;
+        color: red;
+        margin-top: 5px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 150px;
+        height: 30px;
+        margin-top: 40px;
+        font-size: medium;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 801px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    .container-cadastro{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 300px;
+        height: 450px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 300px;
+        height: 450px;
+    }
+    
+    .imagem-principal-cadastro{
+        margin-top: 0px;
+        width: 300px;
+        height: 450px;
+    }
+    .input-cadastro{
+        font-size: small;
+        text-align: left;
+        margin-top: 0px;
+        width: 200px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 20px;
+        text-align: center;
+        font-size: medium ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-cadastro{
+        margin-top: 5px;
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-cadastro-cadastro{
+        font-size: medium;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-cadastro{
+        color: red;
+        font-size: small;
+    }
+    
+    .text-link-cadastro{
+        margin-top: 0px;
+        text-align: center;
+        font-size: smaller;
+        color: red;
+        margin-top: 15px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 100px;
+        height: 25px;
+        margin-top: 30px;
+        font-size: small;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 150px;
+        height: 25px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 641px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-top: 70px;
+        margin-left: 110px;
+    }
+    
+    .container-cadastro{
+        border-left: none;  
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 200px;
+        height: 350px;
+        background-color: rgb(255, 255, 255) ;
+        margin-top: 0px;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    .container-imagem-cadastro{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 250px;
+        height: 350px;
+    }
+    
+    .imagem-principal-cadastro{
+        width: 220px;
+        height: 300px;
+    }
+    .input-cadastro{
+        font-size: small;
+        text-align: left;
+        width: 125px;
+        height: 20px;
+        border-radius: 10px;
+        margin-top: 0px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 15px;
+        text-align: center;
+        font-size: small ;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-titulo-cadastro{
+        font-size: large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-cadastro{
+        color: red;
+        font-size: small;
+        display: none;
+    }
+    
+    .text-link-cadastro{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 10px;
+        color: red;
+        margin-top: 0px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 60px;
+        height: 20px;
+        margin-top: 25px;
+        font-size: 10px;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 50px;
+        height: 20px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 415px){
+    .cadastro{
+        flex-direction: row;
+        display: flex;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .container-cadastro{
+        border-left: 1px solid rgba(190,0,29,1);  
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 300px;
+        height: 600px;
+        background-color: rgb(255, 255, 255) ;
+        margin-top: 0px;
+    }
+    
+    .container-principal-cadastro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .container-imagem-cadastro{
+        display: none;
+    }
+    
+    .imagem-principal-cadastro{
+        display: none;
+    }
+    .input-cadastro{
+        font-size: 15px;
+        text-align: left;
+        width: 200px;
+        height: 25px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    
+    .texto-input-cadastro{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 20px ;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-titulo-cadastro{
+        font-size: 30px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-cadastro{
+        color: red;
+        font-size: small;
+        display: none;
+    }
+    
+    .text-link-cadastro{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 16px;
+        color: red;
+        margin-top: 35px;
+    }
+    .botao-cadastro{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 100px;
+        height: 25px;
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    
+    .botao-cadastro:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 50px;
+        height: 20px;
+        font-size: small;
+    }
+}

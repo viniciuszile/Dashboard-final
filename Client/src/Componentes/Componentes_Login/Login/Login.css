@@ -1,0 +1,1106 @@
+.login{
+    margin-left: 550px;
+    margin-top: 170px;
+    flex-direction: row;
+    display: flex;
+    
+}
+
+.container-login{
+    width: 400px;
+    height: 520px;
+    border-left: none;
+    border-top: 1px solid rgba(190,0,29,1);
+    border-right: 1px solid rgba(190,0,29,1);
+    border-bottom: 1px solid rgba(190,0,29,1);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgb(255, 255, 255) ;
+}
+
+.container-principal-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.container-imagem-login{
+    width: 400px;
+    height: 520px;
+    border-right: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-left: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgba(190,0,29,0.9);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.imagem-principal-login{
+    margin-right: 100px;
+    width: 350px;
+    height: 520px;
+}
+
+.input-login{
+    width: 300px;
+    height: 30px;
+    font-size: large;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.texto-input-login{
+    margin-top: 50px;
+    text-align: center;
+    font-size: medium ;
+    color: rgba(190,0,29,1);
+
+}
+
+.texto-titulo-login{
+    font-size: xx-large;
+    color: rgba(190,0,29,1);
+}
+
+.texto-login-login{
+    font-size: medium;
+    color: rgba(190,0,29,1);
+    margin-top: 30px;
+}
+
+.text-error-login{
+    color: red;
+}
+
+.text-link-login{
+    margin-top: 30px;
+    text-align: center;
+    font-size: medium;
+    color: red;
+}
+.botao-login{
+    background-color: rgba(190,0,29,1);
+    color:#fff;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.botao-login:hover{
+    background-color: rgb(116, 1, 1);
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+}
+
+
+
+
+@media (max-width: 2561px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-left: 550px;
+        margin-top: 125px;
+    }
+    
+    .container-login{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 750px;
+        height: 900px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 750px;
+        height: 900px;
+    }
+    
+    .imagem-principal-login{
+        margin-top: 0px;
+        width: 750px;
+        height: 900px;
+    }
+    .input-login{
+        font-size: xx-large ;
+        text-align: left;
+        width: 500px;
+        height: 50px;
+        border-radius: 15px;
+        
+    }
+    
+    .texto-input-login{
+        margin-top: 120px;
+        text-align: center;
+        font-size: 40px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-login{
+        font-size: 70px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-login-login{
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        font-size: 35px;
+        color: red;
+    }
+    
+    .text-link-login{
+        text-align: center;
+        font-size: xx-large;
+        color: red;
+    }
+    .botao-login{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 320px;
+        height: 50px;
+        margin-top: 90px;
+        font-size: x-large;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 300px;
+        height: 45px;
+        font-size: x-large;
+    }
+}
+
+
+/* resolucao 2048 x 1536 */
+
+@media (max-width: 2049px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-left: 300px;
+        margin-top: 300px;
+    }
+    
+    .container-login{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 750px;
+        height: 900px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 750px;
+        height: 900px;
+    }
+    
+    .imagem-principal-login{
+        margin-top: 0px;
+        width: 750px;
+        height: 900px;
+    }
+    .input-login{
+        font-size: xx-large ;
+        text-align: left;
+        width: 500px;
+        height: 50px;
+        border-radius: 15px;
+        
+    }
+    
+    .texto-input-login{
+        margin-top: 120px;
+        text-align: center;
+        font-size: 40px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-login{
+        font-size: 70px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-login-login{
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        font-size: 35px;
+        color: red;
+    }
+    
+    .text-link-login{
+        text-align: center;
+        font-size: xx-large;
+        color: red;
+    }
+    .botao-login{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 250px;
+        height: 50px;
+        margin-top: 90px;
+        font-size: x-large;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 300px;
+        height: 45px;
+        font-size: x-large;
+    }
+}
+
+
+/* 1920 x 1200 */
+@media (max-width: 1921px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-left: 220px;
+        margin-top: 120px;
+    }
+    
+    .container-login{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 750px;
+        height: 1000px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 750px;
+        height: 1000px;
+    }
+    
+    .imagem-principal-login{
+        margin-top: 0px;
+        width: 750px;
+        height: 1000px;
+    }
+    .input-login{
+        font-size: 30px ;
+        text-align: left;
+        width: 500px;
+        height: 60px;
+        border-radius: 20px;
+        
+    }
+    
+    .texto-input-login{
+        margin-top: 120px;
+        text-align: center;
+        font-size: 45px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-login{
+        font-size: 70px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-login-login{
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        font-size: 35px;
+        color: red;
+    }
+    
+    .text-link-login{
+        text-align: center;
+        font-size: 35px;
+        color: red;
+    }
+    .botao-login{
+        background-color: rgba(190,0,29,1);
+        color:#fff;     
+        border-radius: 15px;
+        width: 300px;
+        height: 60px;
+        margin-top: 90px;
+        font-size: xx-large;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 15px;
+        width: 300px;
+        height: 60px;
+        font-size: xx-large;
+    }
+}
+
+
+/* 1600 x 900 */
+@media (max-width: 1601px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-left: 180px;
+        margin-top: 140px;
+    }
+    
+    .container-login{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 650px;
+        height: 700px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 650px;
+        height: 700px;
+    }
+    
+    .imagem-principal-login{
+        margin-top: 0px;
+        width: 650px;
+        height: 700px;
+    }
+    .input-login{
+        font-size: 30px ;
+        text-align: left;
+        width: 400px;
+        height: 50px;
+        border-radius: 15px;
+        
+    }
+    
+    .texto-input-login{
+        margin-top: 60px;
+        text-align: center;
+        font-size: 35px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-login{
+        margin-top: 25px;
+        font-size: 50px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        font-size: 25px;
+        color: red;
+    }
+    
+    .text-link-login{
+        text-align: center;
+        color: red;
+        font-size: 28px;
+    }
+    .botao-login{
+        background-color: rgba(190,0,29,1);
+        color:#fff;     
+        border-radius: 15px;
+        width: 200px;
+        height: 50px;
+        margin-top: 90px;
+        font-size: 25px;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 15px;
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+    }
+}
+
+/* 1440 x 900 */
+
+@media (max-width: 1441px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-left: 300px;
+        margin-top: 80px;
+    }
+    
+    .container-login{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 400px;
+        height: 600px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 400px;
+        height: 600px;
+        margin-top: 1px;
+    }
+    
+    .imagem-principal-login{
+        margin-top: 10px;
+        width: 400px;
+        height: 600px;
+    }
+    .input-login{
+        font-size: large;
+        text-align: left;
+        width: 300px;
+        height: 35px;
+        border-radius: 10px;
+        
+    }
+    
+    .texto-input-login{
+        margin-top: 80px;
+        text-align: center;
+        font-size: 25px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-login{
+        font-size: 30px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        font-size: 20px;
+        color: red;
+    }
+    
+    .text-link-login{
+        text-align: center;
+        font-size: 20px;
+        color: red;
+    }
+    .botao-login{
+        margin-top: 70px;
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 150px;
+        height: 30px;
+        font-size: medium;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 150px;
+        height: 30px;
+        font-size: medium;
+    }
+}   
+
+/* 1280 x 720 */
+
+@media (max-width: 1281px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-left: 250px;
+        margin-top: 80px;
+    }
+    
+    .container-login{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 350px;
+        height: 600px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 400px;
+        height: 600px;
+    }
+    
+    .imagem-principal-login{
+        margin-top: 10px;
+        width: 400px;
+        height: 600px;
+    }
+    .input-login{
+        font-size: medium;
+        text-align: left;
+        width: 270px;
+        height: 30px;
+        border-radius: 10px;
+        
+    }
+    
+    .texto-input-login{
+        margin-top: 80px;
+        text-align: center;
+        font-size: 25px ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-login{
+        font-size: 30px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        font-size: 20px;
+        color: red;
+    }
+    
+    .text-link-login{
+        text-align: center;
+        font-size: 20px;
+        color: red;
+    }
+    .botao-login{
+        margin-top: 70px;
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 150px;
+        height: 35px;
+        font-size: medium;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 150px;
+        height: 30px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 1024px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-left: 175px;
+        margin-top: 100px;
+    }
+    
+    .container-login{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 350px;
+        height: 600px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 350px;
+        height: 600px;
+    }
+    
+    .imagem-principal-login{
+        margin-top: 40px;
+        width: 350px;
+        height: 500px;
+    }
+    .input-login{
+        font-size: medium;
+        text-align: left;
+        width: 270px;
+        height: 30px;
+        border-radius: 10px;
+        
+    }
+    
+    .texto-input-login{
+        margin-top: 70px;
+        text-align: center;
+        font-size: large ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-login{
+        font-size: xx-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-login-login{
+        font-size: large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        font-size: medium;
+        color: red;
+    }
+    
+    .text-link-login{
+        text-align: center;
+        font-size: medium;
+        color: red;
+    }
+    .botao-login{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 150px;
+        height: 30px;
+        margin-top: 100px;
+        font-size: medium;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 801px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    
+    .container-login{
+        border-left: none;
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 300px;
+        height: 450px;
+        background-color: rgb(255, 255, 255) ;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 45px;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 300px;
+        height: 450px;
+    }
+    
+    .imagem-principal-login{
+        margin-top: 10px;
+        width: 300px;
+        height: 450px;
+    }
+    .input-login{
+        font-size: small;
+        text-align: left;
+        margin-top: 15px;
+        width: 200px;
+        height: 25px;
+        border-radius: 10px;
+    }
+    
+    .texto-input-login{
+        margin-top: 10px;
+        text-align: center;
+        font-size: medium ;
+        color: rgba(190,0,29,1);
+    
+    }
+    
+    .texto-titulo-login{
+        font-size: x-large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-login-login{
+        font-size: medium;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        color: red;
+        font-size: small;
+    }
+    
+    .text-link-login{
+        margin-top: 30px;
+        text-align: center;
+        font-size: smaller;
+        color: red;
+    }
+    .botao-login{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 150px;
+        height: 25px;
+        margin-top: 50px;
+        font-size: small;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 150px;
+        height: 25px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 641px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-top: 100px;
+        margin-left: 110px;
+    }
+    
+    .container-login{
+        border-left: none;  
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        width: 200px;
+        height: 300px;
+        background-color: rgb(255, 255, 255) ;
+        margin-top: 0px;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .container-imagem-login{
+        border-right: none;
+        border-top: 1px solid rgb(255, 255, 255);
+        border-left: 1px solid rgb(255, 255, 255);
+        border-bottom: 1px solid rgb(255, 255, 255);
+        background-color: rgba(190,0,29,0.9);
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 250px;
+        height: 300px;
+    }
+    
+    .imagem-principal-login{
+        width: 220px;
+        height: 270px;
+    }
+    .input-login{
+        font-size: small;
+        text-align: left;
+        width: 125px;
+        height: 20px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    
+    .texto-input-login{
+        margin-top: 25px;
+        text-align: center;
+        font-size: small ;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-titulo-login{
+        font-size: large;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        color: red;
+        font-size: small;
+        display: none;
+    }
+    
+    .text-link-login{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 10px;
+        color: red;
+        margin-top: 10px;
+    }
+    .botao-login{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 50px;
+        height: 20px;
+        margin-top: 25px;
+        font-size: 10px;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 50px;
+        height: 20px;
+        font-size: small;
+    }
+}
+
+@media (max-width: 415px){
+    .login{
+        flex-direction: row;
+        display: flex;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    
+    .container-login{
+        border-left: 1px solid rgba(190,0,29,1);  
+        border-top: 1px solid rgba(190,0,29,1);
+        border-right: 1px solid rgba(190,0,29,1);
+        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 300px;
+        height: 400px;
+        background-color: rgb(255, 255, 255) ;
+        margin-top: 0px;
+    }
+    
+    .container-principal-login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .container-imagem-login{
+        display: none;
+    }
+    
+    .imagem-principal-login{
+        display: none;
+    }
+    .input-login{
+        font-size: 15px;
+        text-align: left;
+        width: 200px;
+        height: 25px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    
+    .texto-input-login{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 20px ;
+        color: rgba(190,0,29,1);
+    }
+    
+    .texto-titulo-login{
+        font-size: 30px;
+        color: rgba(190,0,29,1);
+    }
+    
+    .text-error-login{
+        color: red;
+        font-size: small;
+        display: none;
+    }
+    
+    .text-link-login{
+        margin-top: 0px;
+        text-align: center;
+        font-size: 16px;
+        color: red;
+        margin-top: 35px;
+    }
+    .botao-login{
+        background-color: rgba(190,0,29,1);
+        color:#fff;
+        border-radius: 10px;
+        width: 100px;
+        height: 25px;
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    
+    .botao-login:hover{
+        background-color: rgb(116, 1, 1);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 50px;
+        height: 20px;
+        font-size: small;
+    }
+}
