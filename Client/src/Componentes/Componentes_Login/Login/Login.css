@@ -320,13 +320,13 @@
     
     .container-login{
         border-left: none;
-        border-top: 1px solid rgba(190,0,29,1);
-        border-right: 1px solid rgba(190,0,29,1);
-        border-bottom: 1px solid rgba(190,0,29,1);
+        border-top: 1px solid rgba(190,0,29,1);;
+        border-right: 1px solid rgba(190,0,29,1);;
+        border-bottom: 1px solid rgba(190,0,29,1);;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         width: 750px;
-        height: 1000px;
+        height: 700px;
         background-color: rgb(255, 255, 255) ;
     }
     
@@ -335,7 +335,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     
     .container-imagem-login{
@@ -343,74 +343,81 @@
         border-top: 1px solid rgb(255, 255, 255);
         border-left: 1px solid rgb(255, 255, 255);
         border-bottom: 1px solid rgb(255, 255, 255);
-        background-color: rgba(190,0,29,0.9);
+        background-color: rgba(190,0,29,1);;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         width: 750px;
-        height: 1000px;
+        height: 700px;
     }
+
     
     .imagem-principal-login{
         margin-top: 0px;
         width: 750px;
-        height: 1000px;
+        height: 700px;
     }
     .input-login{
-        font-size: 30px ;
+        font-size: 25px ;
         text-align: left;
-        width: 500px;
-        height: 60px;
+        width: 450px;
+        height: 40px;
         border-radius: 20px;
-        
+        margin-top: 0px;
     }
     
     .texto-input-login{
-        margin-top: 120px;
+       margin-top: 70px;
         text-align: center;
-        font-size: 45px ;
-        color: rgba(190,0,29,1);
+        font-size: 30px ;
+        color: rgba(190,0,29,1);;
     
     }
     
     .texto-titulo-login{
-        font-size: 70px;
-        color: rgba(190,0,29,1);
+        margin-top: 0px;
+        font-size: 60px;
+        color: rgba(190,0,29,1);;
     }
     
     .texto-login-login{
+        margin-top: 0px;
         font-size: x-large;
-        color: rgba(190,0,29,1);
+        color: rgba(190,0,29,1);;
     }
     
     .text-error-login{
-        font-size: 35px;
-        color: red;
+        font-size: 25px;
+        color: rgb(179, 19, 19);
     }
     
     .text-link-login{
+        margin-top: 35  px;
         text-align: center;
-        font-size: 35px;
-        color: red;
+        font-size: 25px;
+        color: rgba(190,0,29,1);;
     }
     .botao-login{
-        background-color: rgba(190,0,29,1);
+        margin-top: 0px;
+        background-color: rgba(190,0,29,1);;
         color:#fff;     
         border-radius: 15px;
-        width: 300px;
-        height: 60px;
+        width: 250px;
+        height: 40px;
         margin-top: 90px;
-        font-size: xx-large;
+        font-size: large;
     }
     
     .botao-login:hover{
-        background-color: rgb(116, 1, 1);
+        transition: 0.7s;
+        background-color: rgb(32, 2, 2);
         color:rgb(255, 255, 255);
         border-radius: 15px;
-        width: 300px;
-        height: 60px;
-        font-size: xx-large;
+        width: 250px;
+        height: 40px;
+        font-size: large;
     }
 }
+
 
 
 /* 1600 x 900 */

@@ -6,7 +6,7 @@ import "../body/body.css"
 function Graphs() {
 
   return (
-    <div className="Body">
+    <div className="teste">
       <Bitcoin/>
       <Dolar/>
       <Euro/>

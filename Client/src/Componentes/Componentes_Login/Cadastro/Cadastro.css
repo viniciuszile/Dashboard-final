@@ -318,8 +318,8 @@
     .cadastro{
         flex-direction: row;
         display: flex;
-        margin-left: 230px;
-        margin-top: 50px;
+        margin-left: 200px;
+        margin-top: 150px;
     }
     
     .container-cadastro{
@@ -330,7 +330,7 @@
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         width: 750px;
-        height: 1100px;
+        height: 700px;
         background-color: rgb(255, 255, 255) ;
     }
     
@@ -347,77 +347,71 @@
         border-top: 1px solid rgb(255, 255, 255);
         border-left: 1px solid rgb(255, 255, 255);
         border-bottom: 1px solid rgb(255, 255, 255);
-        background-color: rgba(190,0,29,0.9);
+        background-color: rgba(190,0,29,1);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         width: 750px;
-        height: 1100px;
+        height: 700px;
     }
     
     .imagem-principal-cadastro{
         margin-top: 1px;
         width: 750px;
-        height: 1100px;
+        height: 700px;
     }
     .input-cadastro{
-        font-size: 35px ;
+        font-size: 20px ;
         text-align: left;
-        width: 550px;
-        height: 60px;
+        width: 400px;
+        height: 40px;
         border-radius: 15px;
         margin-top: 5px;
     }
     
     .texto-input-cadastro{
-        margin-top: 100px;
+        margin-top: 30px;
         text-align: center;
-        font-size: 40px ;
+        font-size: 25px ;
         color: rgba(190,0,29,1);
-        margin-top: 40px;
     }
     
     .texto-titulo-cadastro{
-        font-size: 70px;
-        color: rgba(190,0,29,1);
-        margin-top: 1px;
-    }
-    
-    .texto-cadastro-cadastro{
-        margin-top: 1px;
-        font-size: x-large;
+        font-size: 50px;
         color: rgba(190,0,29,1);
         margin-top: 1px;
     }
     
     .text-error-cadastro{
-        font-size: 30px;
-        color: red;
+        font-size: 20px;
+        color: rgb(179, 19, 19);
         margin-top: 1px;
     }
     
     .text-link-cadastro{
         text-align: center;
-        font-size: xx-large;
-        color: red;
+        font-size: 25px;
+        color: rgba(190,0,29,1);
         margin-top: 20px;
     }
     .botao-cadastro{
         background-color: rgba(190,0,29,1);
         color:#fff;
         border-radius: 10px;
-        width: 300px;
-        height: 55px;
-        font-size: x-large;
-        margin-top: 70px;
+        width: 200px;
+        height: 40px;
+        font-size: large;
+        margin-top: 25px;
     }
     
     .botao-cadastro:hover{
-        background-color: rgb(116, 1, 1);
-        color:rgb(255, 255, 255);
+        transition: 0.7s;
+        background-color: rgb(0,0, 0);
+        color:#fff;
         border-radius: 10px;
-        width: 300px;
-        height: 45px;
-        font-size: x-large;
+        width: 200px;
+        height: 40px;
+        font-size: large;
+        margin-top: 25px;
     }
 }
 

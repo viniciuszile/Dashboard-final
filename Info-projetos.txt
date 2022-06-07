@@ -1,0 +1,47 @@
+---------------------------------------- Siga o Passo a Passo a baixo para conseguir utilizar nosso projeto ----------------------------------------
+
+1 - primeiro baixe o arquivo no nosso repositorio do github link(https://github.com/viniciuszile/Crud-Final)
+
+2 - o arquivo vira compactado, voce precisara de algum app para descompactalo. a pasta tera 3 coisas principais, a pasta server a pasta client e tambem o script do banco de dados
+
+3 - entre na pasta "client" pelo cmd e de o comando npm install, feito isso todas as dependencias da pasta client serao instaladas
+ 
+4 - entre na pasta server tambem pelo cmd e installe as seguintes bibliotecas com os seus respectivos comandos 
+
+-sequelize comando : npm install sequelize 
+
+-express comando : npm install express 
+
+-mysql comando : npm install mysql
+
+-nodemon comando : npm install nodemon
+
+-cors comando : npm install cors
+
+5 - ligue o xampp e entre no seu banco de dados mysql e rode o script que veio na pasta("banco-script").
+
+---------------------------------------- Agora que instalamos tudo, vamos subir nossa aplicaçao ----------------------------------------
+
+1 - dentro do terminal(cmd) entre na pasta client e de o comando : npm start
+
+2 - dentro do terminal(cmd) entre na pasta server e de o comando : node.\index.js
+
+3 - dentro do terminal(cmd) entre na pasta sequelize que esta dentro da pasta server e de o comando : node.\app.js
+
+4 - confira se o xampp esta ligado com a opçao mysql selecionada
+
+5- pronto nosso projeto esta rodadando
+
+
+---------------------------------------- Caso ocorra algum erro na instalaçao faça contato com a gente pelo teams ----------------------------------------
+
+
+- vinicius zile costa
+
+- rafael alves do nascimento
+
+
+
+
+
+
